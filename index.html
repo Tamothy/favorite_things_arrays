@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.0.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things in Arrays!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What are some of your favorite hobbies?</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="hobby_one">Hobby one:</label>
+            <input id="hobby_one" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="hobby_two">Hobby two:</label>
+            <input id="hobby_two" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="hobby_three">Hobby three:</label>
+            <input id="hobby_three" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Show me my hobbies because I can't remember!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>Here are your hobbies, in case you didn't see them! </h1>
+        <p><span class="results"></span></p>
+        <h2>One of your hobbies are missing, can you find which one?</h2>
+        <p><span class="results_two"></span></p>
+        <h2>If you're stuck, which hobby is only mentioned once?!</h2>
+        <p><span class="results_three"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
